@@ -79,7 +79,7 @@ p{
 #recipie-section{
     margin-bottom: 50px;
 }
-.recipie-section-title{
+.section-title{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,5 +118,9 @@ p{
 
 /* ==========footer========= */
 
-
+footer{
+    background-color: #0B0D17;
+    color: white;
+    margin-top: 50px;
+}
 
