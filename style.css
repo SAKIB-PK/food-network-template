@@ -30,10 +30,16 @@ body{
     font-weight: bold;
 }
 p{
-    line-height: 160%;
+    line-height: 32px;
+    padding:20px 0 40px;
+
     font-style: normal;
     font-weight: 500;
     color: #828282;
+}
+.title{
+    font-size:40px;
+    color:#707070;
 }
 
 /* ======Hero section==== */
@@ -42,8 +48,29 @@ p{
     /* margin-bottom: 0; */
     font-weight: bold;
 }
-#hero-left p{
+/* #hero-left p{
     margin-bottom: 45px;;
+} */
+/* =========About Section============= */
+#about-section{
+    background-image: url(img/Frame57.jpg);
+    margin-bottom: 0;
+    background-size: cover;
+    position: relative;
+    height:600px ;
+    
+}
+#about-section .half-width img{
+    position: absolute;
+    width: 338px;
+    height: 536px;
+    left: 199px;
+    top: 64px;
+}
+#about-section .about-right{
+    position:absolute;
+    top:120px;
+    right:60px;
 }
 
 
